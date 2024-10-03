@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    
+    <form name="giris" action="giris.html" method="get">
+    <fieldset>
+    <legend>Kişisel Bilgiler</legend>
+    <label>Ad</label> <input type="text" placeholder="Adınızı buraya girin"> <br>
+    <label>Soyad</label> <input type="text" placeholder="Soyadınızı buraya girin"><br>
+    <label>Cinsiyet</label><input type="radio"name="Cinsiyet">Erkek
+    <input type="radio" name="Cinsiyet">Obje <br>
+    <label>Doğum Tarihi</label>
+    <input type="date"><br>
+    <label>Doğum Saati</label>
+    <input type="time"><br>
+    <label>Doğum Yeri</label><select name="iller" size="1">
+        <option value="34">İstanbul</option>
+        <option value="35">İzmir</option>
+        <option value="36">Kars</option>
+        <option value="37">Kastamonu</option>
+    </select><br>
+    <input type="submit" value="Gönder"><br>
+    </fieldset>
+    <fieldset>
+    <legend>Üyelik Bilgileri</legend>
+    <label>Kullanıcı Adı</label><input type="text"><br>
+    <label>Parola</label><input type="password"placeholder="Şifre birer adet küçük ve büyük harf bulundurmak zorundadır"><br>
+    <label>E-Mail</label><input type="email"><br>
+    <label>Tel. NO.</label><input type="tel"><br>
+    <input type="submit" value="Giriş">
+    <fieldset>
+    <legend>İlgi Alanları</legend>
+    <label>Hobileriniz;</label> <br>
+    <input type="checkbox" name="s1">Basketbol <br>
+    <input type="checkbox" name="s2">Satranç <br>
+    <input type="checkbox" name="s3">Futbol <br>
+    <input type="checkbox" name="s4">GS'ye 5 atmak <br>
+    <input type="checkbox" name="s5">FB'yi şampiyonluktan etmek <br>
+    <input type="checkbox" name="s6">BJK'ye 8 atmak <br>
+    <input type="checkbox" name="s7">Yüzme <br>
+    <input type="checkbox" name="s8">Diğer <br>
+    <hr>
+    <label>Gezmek İstediğiniz Şehirler</label><br>
+    <select name="Giller" multiple>
+        <option value="34">İstanbul</option>
+        <option value="35">İzmir</option>
+        <option value="36">Kars</option>
+        <option value="37">Kastamonu</option>
+    </select><br>
+    <hr>
+    <label>Film Oylaması</label><br>
+    <label>Transformers Başlangıç</label><br>
+    <meter min="0" low="40" high="90" max="100" value="70"></meter><br>
+    <label>Interstellar</label><br>
+    <meter min="0" low="40" high="90" max="100" value="100"></meter><br>
+    <hr>
+    <label>Sevdiğiniz Renk</label> <br>
+    <input type="color" name="renk"> <br>
+    <label>Kendinizi Tanıtın</label> <br>
+    <textarea rows="5" cols="20"></textarea>
+    <input type="submit" value="Gönder"><br>
+    <input type="reset" value="Temizle">
+    </fieldset>
+    </fieldset>
+
+    </form>
+</body>
+</html>

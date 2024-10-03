@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İş Başvuru</title>
+</head>
+<body>
+<fieldset>
+    <legend>Kişisel Bilgiler</legend>
+    <label>Ad Soyad</label><br>
+    <input type="text" placeholder="Adınızı Soyadınızı Buraya Yazın"><br>
+    <label>Doğum Tarihi</label><br>
+    <input type="date"><br>
+    <label>Cinsiyet</label><br>
+    <input type="radio" name="cins1">Erkek <input type="radio" name="cins1">Kadın
+</fieldset>
+<fieldset>
+    <legend>İletişim Bilgileri</legend>
+    <label>E-posta</label><br>
+    <input type="email" placeholder="E-Posta'yı buraya yazın"><br>
+    <label>Telefon No.</label><br>
+    <input type="tel" placeholder="0500 000 00 00"><br>
+    <label>Şehir</label><br>
+    <select name="İller" >
+        <option value="34">İstanbul</option>
+        <option value="35">İzmir</option>
+        <option value="36">Kars</option>
+        <option value="37">Kastamonu</option>
+    </select><br>
+    <label>İlçe</label><br>
+    <input type="text"><br>
+    <label>Adres</label><br>
+    <textarea name="Adres" cols="30" rows="10"></textarea><br>
+    <label>Web Sitesi</label><br>
+    <input type="text" placeholder="Web sitesi adresi yazınız">
+</fieldset>
+<fieldset>
+    <legend>Kariyer Bilgileri</legend>
+    <label>Başvurduğunuz Birim</label><br>
+    <input type="text" placeholder="Satış/Pazarlama"><br>
+    <label>İş Tecrübesi</label><br>
+    <input type="number">yıl <br>
+    <label>Yabancı Dil Seviyesi</label><br>
+    <input type="range" ><br>
+</fieldset>
+<fieldset>
+    <Legend>Diğer Bilgiler</Legend>
+    <label>Hobiler</label><br>
+    <input type="checkbox" name="ch1" >Kitap 
+    <input type="checkbox" name="ch2" >Müzik 
+    <input type="checkbox" name="ch3" >Sinema <br>
+    <label>Favori Renk</label>
+    <input type="color" name="renk"> <br>
+    <label>Fotoğraf Yükle</label>
+    <input type="file"><br>
+</fieldset>
+<button>Okudum Anladım</button> <button disabled> Tamam</button> <input type="reset" value="Temizle">
+</body>
+</html>
