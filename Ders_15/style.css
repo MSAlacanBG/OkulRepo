@@ -1,0 +1,19 @@
+body{background-color: beige;}
+a{text-decoration: none;color: red;font-size: 2vw;border: 2px solid black; width: 10vw; display: inline-block;text-align: center;}
+a:hover{background-color: black;}
+.k1{border: 10px dashed black;width: 20vw;text-align: center;font-size: large;padding: 10px; margin: 10px;}
+.k1 img{width: 19vw;}
+.kapsa{display: flex;flex-wrap: wrap;}
+.k2{border: 10px dashed black;width: 20vw;text-align: center;font-size: large;padding: 10px; margin: 10px;}
+.k2 img{width: 19vw;}
+.kapsa1{display: flex;flex-wrap: wrap;}
+.k3{border: 10px dashed black;width: 20vw;text-align: center;font-size: large;padding: 10px; margin: 10px;}
+.k3 img{width: 19vw;}
+.kapsa2{display: flex;flex-wrap: wrap;}
+.k4{border: 10px dashed black;width: 20vw;text-align: center;font-size: large;padding: 10px; margin: 10px;}
+.k4 img{width: 19vw;}
+.kapsa3{display: flex;flex-wrap: wrap;}
+.k1:hover{background-color: red;}
+.k2:hover{background-color: red;}
+.k3:hover{background-color: red;}
+

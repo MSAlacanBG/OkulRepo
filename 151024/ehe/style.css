@@ -1,0 +1,12 @@
+
+#kutu1{background-color: goldenrod;text-align: center; color: white;font-size: large;height: 10vw;}
+#sekme{width: 100vw; height: 35px; background-color: black;}
+a{text-decoration: none;color: white;font-size: 20px; display: inline-block;padding: 5px;}
+a:hover{background-color: grey;}
+.gonder1{display: flex; padding: 10px; border: 1px solid;margin: 10px;}
+.k1{border: 1px solid;width: 19vw;font-size: large;padding: 10px; margin: 20px;}
+.k1 img{width: 19vw;}
+.kapsa1{display: flex;}
+.k2{border: 1px solid;width: 19vw;font-size: large;padding: 10px; margin: 20px;}
+.k2 img{width: 19vw;}
+.kapsa2{display: flex;}

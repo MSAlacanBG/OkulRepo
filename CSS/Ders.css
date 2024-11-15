@@ -1,0 +1,9 @@
+#k1,#k2,#k3{
+    background-color: aqua;
+    height: 100vw;
+    width:30vh;
+
+}
+img{width: 10vw;height: 10vw;}
+#k1 p{background-color: bisque;}
+#k1 p::first-letter{font-size: 10vh;}

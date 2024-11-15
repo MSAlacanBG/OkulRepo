@@ -1,0 +1,6 @@
+#Basliksekme{background-color: darksalmon;height: 4vh; border: solid 1px;}
+#anasf{background-color: rgb(78, 63, 175);height: 30vh; border: solid 1px;}
+#HowPart{background-color: darksalmon; height: 7vh;border: solid 1px;}
+a{text-decoration: none; color: white;padding:10px; display: inline-block;}
+a:hover{background-color: white; color: darksalmon;}
+.basliksekmesag{text-align: right;}

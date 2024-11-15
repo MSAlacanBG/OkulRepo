@@ -1,0 +1,11 @@
+#kutu{
+    padding: 20px;
+    background-color: gray;
+    height: 35vh;
+    width: 20vw;
+}
+a{text-decoration:none;color:brown; font-size:20px; }
+#Kat1{border:1px solid; border-top: none; border-right: none;border-left: none;margin: 10px;}
+#Kat2{border:1px solid; border-top: none; border-right: none;border-left: none;margin: 10px;}
+#Kat3{border:1px solid; border-top: none; border-right: none;border-left: none;margin: 10px;}
+aside{background-color: lightgray;padding: 4vw;}
